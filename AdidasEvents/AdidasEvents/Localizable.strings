@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  AdidasEvents
+
+  Created by Alberto Velaz Moliner on 16/10/2016.
+  Copyright © 2016 Alberto. All rights reserved.
+*/
+
+
+"prompt_email" = "Email";
+
+"prompt_password" = "Password (optional)";
+
+"action_sign_up" = "Send registration";
+
+"action_sign_in_short" = "Sign in";
+
+"error_invalid_email" = "The email address is invalid";
+
+"error_field_required" = "This field is required";
+
+"error_birthdate_required" = "Date of birth field is required";
+
+"error_country_required" = "Country field is required";
+
+"error_email_required" = "Email field is required";
+
+"error_firstName_required" = "First Name is required";
+
+"error_lastName_required" = "Last Name field is required";
+
+"prompt_firstname" = "First name";
+
+"prompt_lastname" = "Last name";
+
+"prompt_birthdate" = "Date of birth";
+
+"prompt_country" = "Country";
+
+"select_birthdate" = "Select birthdate";
+
+"select_country" = "Select your country:";
+
+"error_min_chars_email" = "At least 3 chars in Email field";
+
+"error_min_chars_first" = "At least 3 chars in First Name field";
+
+"error_min_chars_last" = "At least 3 chars in Last Name field";
+
+"ok" = "Ok";
+
+"title_activity_main" = "MainActivity";
+
+"sgin_up_for_event" = "JOIN THE EVENT";
+
+"join_event" = "Join the event";
+
+"no_connected" = "The device has no connection to internet";
+
+"load_again" = "Try to load the data again";
+
+"register_again" = "Do you want to register someone else?";
+
+"yes" = "Yes";
+
+"no" = "No";
+
+"error" = "ERROR";
