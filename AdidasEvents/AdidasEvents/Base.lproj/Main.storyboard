@@ -39,13 +39,6 @@
                                     <segue destination="V7M-6f-HQ0" kind="show" id="L8u-xi-tYl"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1q-Cm-y3e">
-                                <frame key="frameInset" minX="81" minY="617" width="213" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ButtonLoad">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -54,7 +47,6 @@
                         <outlet property="backGroundImage" destination="d2s-jW-U4E" id="D3K-5V-voS"/>
                         <outlet property="eventName" destination="rh0-hF-Oax" id="rhN-WM-AMW"/>
                         <outlet property="joinButton" destination="8oc-lK-E3v" id="jXK-96-uXZ"/>
-                        <outlet property="loadButton" destination="k1q-Cm-y3e" id="4Gg-Ap-rvg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

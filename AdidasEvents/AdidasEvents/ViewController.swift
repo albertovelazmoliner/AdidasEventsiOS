@@ -12,7 +12,6 @@ import SDWebImage
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var loadButton: UIButton?
     @IBOutlet weak var joinButton: UIButton?
     @IBOutlet weak var backGroundImage: UIImageView?
     @IBOutlet weak var eventName: UILabel?
@@ -20,7 +19,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadData()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -30,13 +28,11 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        loadButton?.setTitle(NSLocalizedString("load_again", comment: ""), for: UIControlState.normal)
         joinButton?.setTitle(NSLocalizedString("join_event", comment: ""), for: UIControlState.normal)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func loadData() {
