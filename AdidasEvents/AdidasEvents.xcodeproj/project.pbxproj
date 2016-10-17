@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056F59DE1DB4D2D900203B31 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F59DD1DB4D2D900203B31 /* Utils.swift */; };
 		05B25FAD1DB3CB0800F2145F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05B25FAC1DB3CB0800F2145F /* Localizable.strings */; };
 		05B25FAF1DB3CEB400F2145F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B25FAE1DB3CEB400F2145F /* SignUpViewController.swift */; };
-		05B25FB11DB3D45900F2145F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B25FB01DB3D45900F2145F /* Utils.swift */; };
 		05B25FB31DB412A300F2145F /* InputTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B25FB21DB412A300F2145F /* InputTextTableViewCell.swift */; };
 		05DD53541DB4373B0011D1A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD53531DB4373B0011D1A2 /* Constants.swift */; };
 		05DEC6801DB397B700DD0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DEC67F1DB397B700DD0B91 /* AppDelegate.swift */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		056F59DD1DB4D2D900203B31 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		05B25FAC1DB3CB0800F2145F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		05B25FAE1DB3CEB400F2145F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		05B25FB01DB3D45900F2145F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../Utils.swift; sourceTree = "<group>"; };
 		05B25FB21DB412A300F2145F /* InputTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextTableViewCell.swift; sourceTree = "<group>"; };
 		05DD53531DB4373B0011D1A2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		05DEC67C1DB397B700DD0B91 /* AdidasEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdidasEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,9 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				05B25FAB1DB3CAB900F2145F /* Supporting Files */,
-				05B25FB01DB3D45900F2145F /* Utils.swift */,
 				05DEC67F1DB397B700DD0B91 /* AppDelegate.swift */,
 				05DEC6811DB397B700DD0B91 /* ViewController.swift */,
+				056F59DD1DB4D2D900203B31 /* Utils.swift */,
 				05DEC6831DB397B700DD0B91 /* Main.storyboard */,
 				05DEC6861DB397B700DD0B91 /* Assets.xcassets */,
 				05DEC6881DB397B700DD0B91 /* LaunchScreen.storyboard */,
@@ -240,8 +240,8 @@
 				05DEC6821DB397B700DD0B91 /* ViewController.swift in Sources */,
 				05B25FB31DB412A300F2145F /* InputTextTableViewCell.swift in Sources */,
 				05DEC6801DB397B700DD0B91 /* AppDelegate.swift in Sources */,
-				05B25FB11DB3D45900F2145F /* Utils.swift in Sources */,
 				05DD53541DB4373B0011D1A2 /* Constants.swift in Sources */,
+				056F59DE1DB4D2D900203B31 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
