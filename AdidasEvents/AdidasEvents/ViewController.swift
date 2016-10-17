@@ -36,7 +36,8 @@ class ViewController: UIViewController {
     }
 
     func loadData() {
-        Alamofire.request("http://192.168.1.44:3000/api/event").responseJSON { response in
+        let url = Constants.API_BASE_URL + "event"
+        Alamofire.request(url).responseJSON { response in
             guard response.result.isSuccess else {
                 return
             }
